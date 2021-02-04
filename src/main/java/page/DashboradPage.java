@@ -16,13 +16,13 @@
   @FindBy(how = How.XPATH, using = "//h2[contains(text(),' Dashboard ')]")
   WebElement DASHBOARD_VALIDATION_ELEMENT;
   
-	/*
-	 * public void DashboardValidation() {
-	 * 
-	 * String DashboardText = DASHBOARD_VALIDATION_ELEMENT.getText();
-	 * System.out.println(DashboardText);
-	 * 
-	 * Assert.assertEquals(" Dashboard ", DashboardText, "Wrong Page!!"); }
-	 */
+	
+	  public void DashboardValidation() {
+	  
+	  String DashboardText = DASHBOARD_VALIDATION_ELEMENT.getText();
+	  System.out.println(DashboardText);
+	  
+	  Assert.assertEquals("Dashboard", DashboardText, "Wrong Page!!"); }
+	 
   }
  

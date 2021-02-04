@@ -34,7 +34,7 @@ public class LoginTest {
 	public void DahboardValidationTest() {
 
 		DashboradPage dashboard = PageFactory.initElements(driver, DashboradPage.class);
-		//dashboard.DashboardValidation();
+		dashboard.DashboardValidation();
 	}
 
 	 @AfterTest
